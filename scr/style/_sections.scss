@@ -1,0 +1,221 @@
+.section1 {
+  height: 500px;
+
+  text-align: center;
+  
+  color: $color-white;
+  background-image: url('../img/165943-biznes-zdanie-pryamougolnik-drevesina-krysha-1920x1080.jpg');
+
+  &-title-head {
+    font-size: $font-48;
+    padding-top: $p-12;
+  }
+
+  &-title {
+    padding: $p-2;
+    font-size: $font-48;
+  }
+
+  &-sumbit {
+    border: 0;
+
+    width: 200px;
+    height: 4rem;
+    border-radius: 6px;
+
+    background-color: $color-blue;
+    color: $color-white;
+  }
+}
+
+.section2 {
+  @include flex();
+
+  max-width: 1280px;
+  margin: $m-0 auto;
+
+  &-products {
+    padding: $p-1;
+    margin: $m-3;
+
+    &__title-main {
+      font-family: fantasy;
+      font-size: $font-18;
+      margin-bottom: $m-1;
+    }
+
+    &-text {
+      font-size: $font-16;
+    }
+
+    &__product {
+      height: 8rem;
+      border-radius: $m-2;
+
+      text-align: center;
+      margin-bottom: 1rem;
+
+      background-color: $color-white-gray;
+
+      &_img2 {
+        padding-top: 20px;
+      }
+
+      &_img3 {
+        padding-top: 20px;
+      }
+
+      &_img4 {
+        padding-top: 7px;
+      }
+    }
+  }
+}
+
+.title-bottom {
+  text-align: center;
+  margin: 2rem;
+
+  font-size: $font-48;
+  color: $color-black
+
+}
+
+.section3 {
+  @include flex();
+  background-color: $color-azure;
+
+  max-width: 1280px;
+  margin: $m-0 auto;
+  margin-bottom: $m-4;
+
+  &-info1 {
+    background-image: url('../img/job1.jpg');
+    width: 400px;
+    height: 315px;
+
+    &__data {
+      background-color: $color-black-transparent;
+      
+      font-size: $font-28;
+      color: $color-white;
+
+      text-align: center;
+
+      margin-top: $m-20;
+      padding: $p-2;
+    }
+  }
+
+  &-info2 {
+    background-image: url('../img/3455555.jpg');
+    width: 400px;
+    height: 315px;
+
+    &__data {
+      background-color: $color-black-transparent;
+      
+      font-size: $font-28;
+      color: $color-white;
+
+      text-align: center;
+
+      margin-top: $m-20;
+      padding: $p-2;
+    }
+  }
+
+  &-info3 {
+    background-image: url('../img/kak-pravilno-ocenit-sobstvennyj-dizajn1.jpg');
+    width: 400px;
+    height: 315px;
+
+    &__data {
+      background-color: $color-black-transparent;
+      
+      font-size: $font-28;
+      color: $color-white;
+
+      text-align: center;
+
+      margin-top: $m-20;
+      padding: $p-2;
+    }
+  }
+}
+
+.section4 {
+  background-color: $color-white-gray;
+  padding: $p-2;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+
+  width: 1280px;
+  margin: 0 auto;
+  margin-bottom: $m-3;
+  margin-top: $m-1-5;
+
+  &-cards {
+    height: 400px;
+    width: 300px;
+
+    &__links {
+      display: flex;
+      justify-content: space-around;
+
+      margin: 0 auto;
+    }
+  
+
+    &__name{
+      text-align: center;
+ 
+      font-size: $font-20;
+      color: $color-black;
+
+      margin: $p-1;
+    }
+
+    &__job {
+      text-align: center;
+      font-family: cursive;
+
+      margin: $p-1;
+    }
+
+    &__card {
+      height: 304px;
+      width: 295px;
+    }
+  }
+}
+
+.section5 {
+  padding: $p-2;
+  margin-top: $m-3;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+
+  width: 1280px;
+
+  margin: 0 auto;
+  margin-bottom: $m-4;
+  
+
+  &-client {
+    border: 2px solid $color-black;
+    border-radius: 10px;
+    padding-left: $p-6;
+    padding-right: $p-6;
+    padding-top: $p-2;
+    padding-bottom: $p-2;
+  }
+}
+
+

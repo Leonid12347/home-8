@@ -1,0 +1,366 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(77, 34, 104, 0.6);
+}
+
+body, html {
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+  color: #272727;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.image {
+  width: 100%;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.container {
+  transition: all 0.3s;
+}
+
+.title {
+  transition: all 0.3s;
+  padding: 2rem;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: underline;
+  letter-spacing: 0.5rem;
+  color: rgba(77, 34, 104, 0.6);
+  cursor: pointer;
+}
+.title:hover {
+  color: violet;
+}
+.title-section {
+  padding: 2rem;
+  font-size: 20px;
+  text-align: center;
+  color: violet;
+}
+.title-description {
+  padding: 0 s 0.5rem;
+  color: violet;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: azure;
+}
+.header-logo {
+  padding: 1rem;
+}
+.header-breadcrumb {
+  margin: 2rem;
+  padding-right: 15rem;
+  display: flex;
+}
+.header-breadcrumb__item {
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  padding: 1rem;
+}
+.header-breadcrumb__list {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+.header-breadcrumb__list:hover {
+  transition: all 0.3s;
+  color: rgb(15, 219, 255);
+  border-bottom: 5px solid rgb(15, 219, 255);
+  border-radius: 5px;
+  padding-bottom: 2rem;
+}
+.header-breadcrumb__lists {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+.header-breadcrumb__lists:hover {
+  transition: all 0.3s;
+  color: rgb(15, 219, 255);
+}
+
+.section1 {
+  height: 500px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url("../img/165943-biznes-zdanie-pryamougolnik-drevesina-krysha-1920x1080.jpg");
+}
+.section1-title-head {
+  font-size: 48px;
+  padding-top: 12rem;
+}
+.section1-title {
+  padding: 2rem;
+  font-size: 48px;
+}
+.section1-sumbit {
+  border: 0;
+  width: 200px;
+  height: 4rem;
+  border-radius: 6px;
+  background-color: rgb(15, 219, 255);
+  color: #ffffff;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.section2-products {
+  padding: 1rem;
+  margin: 3rem;
+}
+.section2-products__title-main {
+  font-family: fantasy;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.section2-products-text {
+  font-size: 16px;
+}
+.section2-products__product {
+  height: 8rem;
+  border-radius: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: rgba(215, 215, 215, 0.4);
+}
+.section2-products__product_img2 {
+  padding-top: 20px;
+}
+.section2-products__product_img3 {
+  padding-top: 20px;
+}
+.section2-products__product_img4 {
+  padding-top: 7px;
+}
+
+.title-bottom {
+  text-align: center;
+  margin: 2rem;
+  font-size: 48px;
+  color: #000000;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: azure;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.section3-info1 {
+  background-image: url("../img/job1.jpg");
+  width: 400px;
+  height: 315px;
+}
+.section3-info1__data {
+  background-color: rgba(1, 1, 1, 0.4);
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20rem;
+  padding: 2rem;
+}
+.section3-info2 {
+  background-image: url("../img/3455555.jpg");
+  width: 400px;
+  height: 315px;
+}
+.section3-info2__data {
+  background-color: rgba(1, 1, 1, 0.4);
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20rem;
+  padding: 2rem;
+}
+.section3-info3 {
+  background-image: url("../img/kak-pravilno-ocenit-sobstvennyj-dizajn1.jpg");
+  width: 400px;
+  height: 315px;
+}
+.section3-info3__data {
+  background-color: rgba(1, 1, 1, 0.4);
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20rem;
+  padding: 2rem;
+}
+
+.section4 {
+  background-color: rgba(215, 215, 215, 0.4);
+  padding: 2rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+.box-cards {
+  height: 400px;
+  width: 300px;
+}
+.box-cards__links {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.box-cards__name {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  margin: 1rem;
+}
+.box-cards__job {
+  text-align: center;
+  font-family: cursive;
+  margin: 1rem;
+}
+.box-cards__card {
+  height: 304px;
+  width: 295px;
+}
+
+.section5 {
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-around;
+  width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.clients-client {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-start;
+  width: 1280px;
+  padding-top: 3rem;
+  margin: 0 auto;
+}
+.bottom-lists2 {
+  flex-direction: column;
+  padding: 4px;
+}
+.bottom-lists2__list2 {
+  padding: 4px;
+}
+.bottom-lists2__list2_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.bottom-lists2__list2_links {
+  text-decoration: none;
+  color: gray;
+}
+.bottom-box2 {
+  flex-direction: column;
+  padding: 2rem;
+}
+.bottom-box2__join {
+  color: #ffffff;
+  font-size: 18px;
+}
+.bottom-box2__link-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.bottom-box2__link-bottom_img {
+  padding: 1rem;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: $color-azure;
+
+  &-logo {
+    padding: $p-1;
+  }
+
+  &-breadcrumb {
+    margin: 2rem;
+    padding-right: 15rem;
+    display: flex;
+
+    &__item {
+      text-decoration: wavy;
+      padding: $p-1;
+    }
+
+    &__list {
+      text-decoration: none;
+      font-size: $font-16;
+
+      color: $color-black;
+
+      &:hover {
+        @include transition;
+        
+        color: $color-blue;
+
+        border-bottom: 5px solid $color-blue;
+        border-radius: 5px;
+        
+        padding-bottom: $p-2;
+      }
+    }
+
+    &__lists {
+      text-decoration: none;
+      font-size: $font-16;
+      
+      color: $color-black;
+
+      &:hover {
+        @include transition;
+
+        color: $color-blue;
+      }
+    }
+  }
+}
+

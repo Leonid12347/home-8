@@ -1,0 +1,15 @@
+@mixin flex() {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@mixin transition {
+  transition: all .3s;
+}
+
+@mixin alignment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
